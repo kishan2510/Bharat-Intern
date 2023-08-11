@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Kishan Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: yellow;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: yellow;
+        }
+
+        nav ul li a:hover {
+            cursor: pointer;
+            color: rgb(251, 251, 60)
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+        .btn{
+            margin:10px,23px;
+            border-radius: 20px;
+            font-family: 'Poppins', sans-serif;
+            background-color:#4848a3;
+            padding: 12px;
+            border: none;
+            font-size: 12px;
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+        .image-top{
+            width: 23px ;
+            position: relative;
+            filter: brightness(0) invert(1);
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+
+
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color :grey;
+            width: 150px;
+            font-size: 9px;
+
+        }
+        footer{
+            background-color: rgb(9, 9, 47);
+            /* height: 233px; */
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;  
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 123px;
+        }
+        footer .footer-right{
+            background-color: black;
+            text-align: center;
+            color: grey;
+            padding: 9px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kishan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Kishan</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <div class="button">
+                    <a href="https://drive.google.com/file/d/1hX7u3xKQzZO3aNEtK2rdnDyu7EUT0NPl/view?usp=drive_link" download>
+                    <button class="btn">Download Resume</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <h1>Projects</h1>
+            <div class="box">
+                <div class="vertical">
+                    <a href="/"><img class="image-top" src="link.png" alt="" srcset=""></a>
+                    <div class="vertical-title">
+                        Color Extension
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cupiditate recusandae quibusdam.
+                        Quibusdam quisquam dolorem facere autem qui ea modi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="/"><img class="image-top" src="link.png" alt="" srcset=""></a>
+                    <div class="vertical-title">
+                        Weather Application
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cupiditate recusandae quibusdam.
+                        Quibusdam quisquam dolorem facere autem qui ea modi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="/"><img class="image-top" src="link.png" alt="" srcset=""></a>
+                    <div class="vertical-title">
+                        TicTacToe Game
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cupiditate recusandae quibusdam.
+                        Quibusdam quisquam dolorem facere autem qui ea modi!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <a href="/"><img class="image-top" src="link.png" alt="" srcset=""></a>
+                    <div class="vertical-title">
+                        Notes Taking Application
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure cupiditate recusandae quibusdam.
+                        Quibusdam quisquam dolorem facere autem qui ea modi!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kishan's Developer Portfolio</h3>
+
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+           
+        </div>
+        <div class="footer-right">
+            www.Pathakportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer', 'C++ Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
